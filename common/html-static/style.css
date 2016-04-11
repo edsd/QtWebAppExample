@@ -1,0 +1,84 @@
+body {
+    margin: 0; padding: 0; font: 14px Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    margin-left: 76px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 48px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+* {
+    outline: none;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+    float: left;
+    border-radius: 24px;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 16px;
+    background: url("favicon.png") no-repeat;
+    background-size: cover;
+}
+
+div.content {
+    width: 800px;
+    margin: 5em auto;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    padding: 16px;
+}
+
+a:link, a:visited {
+    color: #69c;
+    text-decoration: none;
+}
+
+@media (max-width: 700px)
+{
+    body { background-color: #fff; }
+    div.content  {
+        width: auto; margin: 0 auto; border-radius: 0; padding: 1em;
+    }
+}
+
+.menu {
+    border-bottom: 1px solid #eee;
+    margin: 0 0 20px 0;
+    clear: both;
+    padding: 5px 0;
+}
+
+div.sep {
+    height:1px;
+    border-bottom: 1px solid #eee;
+}
+
+.menuitem {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menuitem a {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    padding: 0px;
+}
+

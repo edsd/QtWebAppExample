@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/html">
+        <file alias="common.htm">html/common.htm</file>
+        <file alias="index.htm">html/index.htm</file>
+        <file alias="first.htm">html/first.htm</file>
+        <file alias="second.htm">html/second.htm</file>
+    </qresource>
+</RCC>
